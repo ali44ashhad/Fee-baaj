@@ -1,0 +1,27 @@
+{
+  "CORSRules": [
+    {
+      "AllowedOrigins": [
+        "http://localhost:3001",
+        "https://admin.freebaj.net"
+      ],
+      "AllowedMethods": [
+        "GET",
+        "PUT",
+        "POST",
+        "HEAD",
+        "OPTIONS"
+      ],
+      "AllowedHeaders": [
+        "*",
+        "Authorization",
+        "Content-Type",
+        "x-amz-*"
+      ],
+      "ExposeHeaders": [
+        "ETag"
+      ],
+      "MaxAgeSeconds": 3000
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Freebaj ",
+  "short_name": "Freebaj",
+  "icons": [
+    {
+      "src": "/https://freebaj.net/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/https://freebaj.net/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/https://www.freebaj.net/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/https://www.freebaj.net/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#ff1313",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

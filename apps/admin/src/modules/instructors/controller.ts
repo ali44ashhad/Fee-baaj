@@ -1,0 +1,24 @@
+import { mainController } from '@/lib/mainController';
+import { asyncHandler } from '@elearning/lib';
+import { Instructor } from '@elearning/models';
+import { Request, Response } from 'express';
+
+export const create = asyncHandler(async (req: Request, res: Response) => {
+  mainController.create(req, res, Instructor);
+});
+
+export const update = asyncHandler(async (req: Request, res: Response) => {
+  mainController.update(req, res, Instructor);
+});
+
+export const list = asyncHandler(async (req: Request, res: Response) => {
+  mainController.list(req, res, Instructor);
+});
+
+export const read = asyncHandler(async (req: Request, res: Response) => {
+  mainController.read(req, res, Instructor);
+});
+
+export const remove = asyncHandler(async (req: Request, res: Response) => {
+  mainController.remove(req, res, Instructor);
+});
